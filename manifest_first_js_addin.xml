@@ -40,11 +40,11 @@
                 </Icon>
 
                 <!-- Ribbon button that opens the task pane -->
-                <Control xsi:type="Button" id="MyTaskpaneButton">
-                  <Label resid="MyTaskpaneButton.Label" />
+                <Control xsi:type="Button" id="taskpaneButton">
+                  <Label resid="taskpaneButton.Label" />
                   <Supertip>
-                    <Title resid="MyTaskpaneButton.Label" />
-                    <Description resid="MyTaskpaneButton.Tooltip" />
+                    <Title resid="taskpaneButton.Label" />
+                    <Description resid="taskpaneButton.Tooltip" />
                   </Supertip>
                   <Icon>
                     <bt:Image size="16" resid="Icon.16x16" />
@@ -81,10 +81,10 @@
       <bt:ShortStrings>
         <bt:String id="MyTab.TabLabel" DefaultValue="Hello World" />
         <bt:String id="MyCommandsGroup.Label" DefaultValue="MyGroup" />
-        <bt:String id="MyTaskpaneButton.Label" DefaultValue="Show Taskpane" />
+        <bt:String id="taskpaneButton.Label" DefaultValue="Show Taskpane" />
       </bt:ShortStrings>
       <bt:LongStrings>
-        <bt:String id="MyTaskpaneButton.Tooltip" DefaultValue="Click to show the task pane" />
+        <bt:String id="taskpaneButton.Tooltip" DefaultValue="Click to show the task pane" />
       </bt:LongStrings>
     </Resources>
 
