@@ -10,17 +10,17 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="first js addin"/>
   <Description DefaultValue="a js addin"/>
-  <IconUrl DefaultValue="https://github.com/gitvinitha/first_js_addin.git/icons/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://github.com/gitvinitha/first_js_addin.git/icons/icon-64.png"/>
+  <IconUrl DefaultValue="https://gitvinitha.github.io/first_js_addin/icons/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://gitvinitha.github.io/first_js_addin/icons/icon-64.png"/>
   <SupportUrl DefaultValue="https://sibisqlcanada-my.sharepoint.com/:x:/g/personal/vmaruthalingam_sibisqlcanada_onmicrosoft_com/EaTSqmOtGqBLqSaoTFbRZD8B1wS0mrrg960OhsPZMDNODQ?e=dgSy6K"/>
   <AppDomains>
-    <AppDomain>https://github.com/gitvinitha/first_js_addin.git/</AppDomain>
+    <AppDomain>https://gitvinitha.github.io/first_js_addin/</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Workbook"/>
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://github.com/gitvinitha/first_js_addin.git/taskpane.html"/>
+    <SourceLocation DefaultValue="https://gitvinitha.github.io/first_js_addin/taskpane.html"/>
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
   <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
@@ -70,13 +70,13 @@
 
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://github.com/gitvinitha/first_js_addin.git/icons/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://github.com/gitvinitha/first_js_addin.git/icons/icon-32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://github.com/gitvinitha/first_js_addin.git/icons/icon-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://gitvinitha.github.io/first_js_addin/icons/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://gitvinitha.github.io/first_js_addin/icons/icon-32.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://gitvinitha.github.io/first_js_addin/icons/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
         <!-- This must point to the HTML document with the task pane -->
-        <bt:Url id="Taskpane.Url" DefaultValue="https://github.com/gitvinitha/first_js_addin.git/taskpane.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://gitvinitha.github.io/first_js_addin/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="MyTab.TabLabel" DefaultValue="Hello World"/>
